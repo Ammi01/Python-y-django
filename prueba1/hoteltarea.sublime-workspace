@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"he",
+				"min-height"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tex",
+				"text-align-last"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"list",
+				"list-style-image"
+			],
+			[
+				"dis",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": " <div class=\"wrapper-black\">\n	<div class=\"zone zone-head\">\n		<div class=\"zone-logo\">\n			<?php if ($logo): ?>\n			<a href=\"<?php print $front_page; ?>\" title=\"<?php print t('Home'); ?>\" rel=\"Home\" id=\"logo\">\n			<ing src=\"<?php print \"logo\"; ?>\" alt=\"<?php print t('Home'); ?>\" />\n			</a>\n			<?php endif; ?>\n		</div>\n		<div class=\"zone-head-right\">\n			<?php print render($page['head']); ?>\n			<?php print render($page['menu']); ?>\n		</div>\n	</div>\n	<div class=\"zone zone-content\">\n		<div class=\"zone-body\">\n		<?php print render ($title_preflix); ?>\n		<h1 class=\"title\"><?php print $title; ?></h1>\n		<?php print render($title_suffix); ?>\n		<?php if ($tabs): ?>\n		<?php endif; ?>\n\n		<?php print render($page['content']); ?>\n		</div>\n		<div class=\"zone-right\">\n		<?php print render($page['sideber-right']); ?>\n		</div>\n	</div>\n</div>\n<div class=\"zone zone-footer\">\n<?php print render($page['footer']); ?>\n</div>\n\n\n",
+			"settings":
+			{
+				"buffer_size": 908,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Ammi/Desktop/prueba1/raiz"
+	],
+	"file_history":
+	[
+		"/C/Users/Ammi/AppData/Local/Temp/5816b077-4042-4ae8-9068-3e4f717f08b8/public_html/genesis2/sites/all/themes/bonappetit/css/estilos.css",
+		"/C/Users/Ammi/AppData/Local/Temp/492d7930-f571-43da-9404-3fbf5a54153d/public_html/sites/all/themes/foxtraveltheme/css/general.css",
+		"/C/Users/Ammi/AppData/Local/Temp/2d976e80-28be-406e-923c-83baf9574783/public_html/genesis2/sites/all/themes/bonappetit/css/bonappetit.css",
+		"/C/Users/Ammi/AppData/Local/Temp/5816b077-4042-4ae8-9068-3e4f717f08b8/public_html/genesis2/sites/all/themes/bonappetit/css/bonappetit.css",
+		"/C/Users/Ammi/AppData/Local/Temp/5816b077-4042-4ae8-9068-3e4f717f08b8/public_html/genesis2/sites/all/themes/bonappetit/css/responsivo.css",
+		"/C/Users/Ammi/AppData/Local/Temp/5816b077-4042-4ae8-9068-3e4f717f08b8/public_html/genesis2/sites/all/themes/bonappetit/template.php",
+		"/C/Users/Ammi/AppData/Local/Temp/5816b077-4042-4ae8-9068-3e4f717f08b8/public_html/genesis2/sites/all/themes/bonappetit/from-page.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/5816b077-4042-4ae8-9068-3e4f717f08b8/public_html/genesis2/sites/all/themes/bonappetit/page.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/5816b077-4042-4ae8-9068-3e4f717f08b8/public_html/genesis2/sites/all/themes/bonappetit/bonappetit.info",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page--tour.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/css/general.css",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page--webform.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page--pagina_general.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page--front.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page--experience.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page--destino.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/page--blog.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/node.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/node--tour.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/node--pagina_general.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/node--experience.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/node--destino.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/maintenance-page.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/37769b03-2901-4084-8cc3-16ea2aac0565/public_html/sites/all/themes/foxtraveltheme/html.tpl.php",
+		"/C/Users/Ammi/AppData/Local/Temp/9e05b850-debb-49e6-96bf-015ea450a40e/public_html/sites/all/themes/foxtraveltheme/css/custom.css",
+		"/C/Users/Ammi/AppData/Local/Temp/9e05b850-debb-49e6-96bf-015ea450a40e/public_html/sites/all/themes/foxtraveltheme/css/general.css",
+		"/C/Users/Ammi/AppData/Local/Temp/9e05b850-debb-49e6-96bf-015ea450a40e/public_html/sites/all/themes/foxtraveltheme/js/bootstrap.min.js",
+		"/C/Users/Ammi/AppData/Local/Temp/bae57b04-55cb-4d04-bf57-7ec4058ed727/public_html/genesis2/sites/all/themes/bonappetit/css/responsivo.css",
+		"/C/Users/Ammi/AppData/Local/Temp/bae57b04-55cb-4d04-bf57-7ec4058ed727/public_html/genesis2/sites/all/themes/bonappetit/css/bonappetit.css",
+		"/C/Users/Ammi/AppData/Local/Temp/bae57b04-55cb-4d04-bf57-7ec4058ed727/public_html/genesis2/sites/all/themes/bonappetit/css/estilos.css",
+		"/C/Users/Ammi/AppData/Local/Temp/bae57b04-55cb-4d04-bf57-7ec4058ed727/public_html/genesis2/sites/all/themes/bonappetit/js/script.js",
+		"/C/Users/Ammi/AppData/Local/Temp/bae57b04-55cb-4d04-bf57-7ec4058ed727/public_html/genesis2/sites/all/themes/bonappetit/css/bonappetitresponsivo.css",
+		"/C/Users/Ammi/Downloads/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css",
+		"/C/Users/Ammi/AppData/Local/Temp/bae57b04-55cb-4d04-bf57-7ec4058ed727/public_html/genesis2/sites/default/files/css/css_QVG1mPOJ97iWKdjSm6WR84V3isCHmpcBEsL3V0lxO_E.css",
+		"/C/Users/Ammi/AppData/Local/Temp/Rar$DIa0.355/styles.css",
+		"/C/Users/Ammi/AppData/Local/Temp/eb9708fc-88ea-4b07-8ccd-f38a905f872d/public_html/sites/all/themes/suksutours/css/desktop.css",
+		"/C/Users/Ammi/Downloads/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/C/Users/Ammi/AppData/Local/Temp/398bab2a-b4e2-46eb-9737-b83ac658d08a/public_html/genesis2/sites/all/themes/bonappetit/css/bonappetit.css",
+		"/C/Users/Ammi/AppData/Local/Temp/398bab2a-b4e2-46eb-9737-b83ac658d08a/public_html/genesis2/sites/all/themes/bonappetit/css/estilos.css",
+		"/C/Users/Ammi/Downloads/genesisresponsivo.css",
+		"/C/Users/Ammi/Downloads/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css",
+		"/C/Users/Ammi/Downloads/bonappetitresponsivo.css",
+		"/C/Users/Ammi/Downloads/desktop.css",
+		"/C/Users/Ammi/AppData/Local/Temp/ecb96a8f-08d7-49ca-86f7-18f7dcf5fd2b/public_html/sites/all/themes/suksutours/css/movil.css",
+		"/C/Users/Ammi/AppData/Local/Temp/ecb96a8f-08d7-49ca-86f7-18f7dcf5fd2b/public_html/sites/all/themes/suksutours/css/jquery-ui.min.css",
+		"/C/Users/Ammi/AppData/Local/Temp/398bab2a-b4e2-46eb-9737-b83ac658d08a/public_html/genesis2/sites/all/themes/bonappetit/css/bonappetitresponsivo.css",
+		"/C/Users/Ammi/Downloads/bon appetit/Bon Appetit.info",
+		"/C/Users/Ammi/Downloads/Adobe Photoshop CC 2014 (64 bit) (Crack) [ChingLiu]/Crack/amtlib.dll",
+		"/C/Users/Ammi/Downloads/bon appetit/menu pegadizo.css"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cOMI",
+			"menu",
+			"index",
+			"sleide",
+			"font",
+			"nivo-bo++",
+			"overflow",
+			"block-2",
+			"19"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								908
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hoteltarea.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
