@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		{% block head_title %}{% endblock %}
+	</title>
+</head>
+
+<body>
+	<h1>BIENVENIDOS - App Hotel</h1>
+	<div>
+	<div>Menú</div>
+	<hr/>
+	<ul>
+	<li><a href="{% url 'inicio' %}">Inicio</a></li>
+	<li> <a href="{% url 'listar-reservas' %}">Reservas</a> </li>
+	<li> <a href="{% url 'listar-cliente' %}">Clientes</a> </li>
+	<li> <a href="{% url 'habitaciones' %}">Habitaciones</a> </li>
+	<li> <a href="{% url 'listar-pagos' %}">Pago</a> </li>
+	</ul>
+	</div>
+	{% block content %}{% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h2>DETALLE DE RESERVA</h2>
+<h3>Cliente: {{ reserva.user }}</h3>
+<h3>N° de Personas por habitacion: {{ reserva.personas_por_habitacion }}</h3>
+<h3>Fecha de entrada: {{ reserva.entrada }}</h3>
+<h3>Fecha de salida: {{ reserva.salida }}</h3>
+<h3>Tipo de habitacion: {{ reserva.habitacion }}</h3>
+
+<input type="button" value="Volver atrás" onclick="history.back()">
+{% endblock %}

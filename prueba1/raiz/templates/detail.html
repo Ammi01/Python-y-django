@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h2>DETALLE DEL CLIENTE</h2>
+<h3>Nombre: {{ usuario.nombre }}</h3>
+<h3>Apellido: {{ usuario.apellido }}</h3>
+<h3>Email: {{ usuario.email }}</h3>
+<h3>Primera Sesion: {{ usuario.timestamp }}</h3>
+<h3>Actualizacion: {{ usuario.actualizado }}</h3>
+
+<input type="button" value="Volver atrás" onclick="history.back()">
+{% endblock %}

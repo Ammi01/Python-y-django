@@ -31,7 +31,7 @@ admin.site.register(Reserva, AdminReserva)
 
 
 class AdminPago(admin.ModelAdmin):
-	list_display = ["referencia","Precio","tipo_de_pago"]
+	list_display = ["referencia","Precio","tipo_pago"]
 	class Meta:
 		model= Pago 
 

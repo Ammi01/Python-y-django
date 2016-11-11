@@ -12,19 +12,19 @@ class Usuario(models.Model):
 	actualizado=models.DateTimeField(auto_now_add=False, auto_now=True)
 
 	def __str__(self): 
-		return self.dni
+		return "{0} {1}".format (self.dni,self.apellido)
 
 
+tipoclas=(('1','simple'),('2','matrimonial'),('3','doble'),('4','triple'))
 class Habitaciones(models.Model):
 	num_habitacion=models.CharField(max_length=3)
 	personas= models.IntegerField()
 	hab_estado=(('1','ocupada'),('0','desocupada'),)
 	estado=models.CharField(max_length=1, choices=hab_estado)
-	tipoclas=(('1','simple'),('2','matrimonial'),('3','doble'),('4','triple'))
 	clasificacion= models.CharField(max_length=1, choices=tipoclas)
 		
 	def __str__(self): 
-		return self.num_habitacion
+		return "{0}".format (self.get_clasificacion_display())
 
 class Reserva(models.Model):
 	personas_por_habitacion= models.IntegerField()
@@ -39,5 +39,5 @@ class Reserva(models.Model):
 class Pago(models.Model):
 	Precio=models.IntegerField()
 	tpago=(('E','efectivo'),('T','tarjeta'),)
-	tipo_de_pago=models.BooleanField(max_length=1,choices=tpago)
-	referencia=models.ForeignKey(Reserva)
+	tipo_pago=models.CharField(max_length=1,choices=tpago)
+	referencia=models.ForeignKey(Usuario)

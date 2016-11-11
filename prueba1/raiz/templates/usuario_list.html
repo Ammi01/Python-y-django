@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<table class="table" border=3pxs width="40%" >
+	<thead>
+		<tr bgcolor="antiquewhite">
+			<td>Nombre</td>
+			<td>Apellido</td>
+			<td>Email</td>
+			<td>DNI</td>
+			<td>Acciones</td>
+		</tr>
+		
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for Usuario in object_list %}
+		<tr>
+			<td>{{ Usuario.nombre }}</td>
+			<td>{{ Usuario.apellido }}</td>
+			<td>{{ Usuario.email }}</td>
+			<td>{{ Usuario.dni }}</td>	
+			<td>
+				<a class="btn btn-pri" href="{% url 'detalle' Usuario.id %}">Detalle</a>
+				<a class="btn btn-seg" href="{% url 'editar-cliente' Usuario.id %}">Editar</a>
+			</td>		
+		</tr>
+		{% endfor %}
+		
+		{% else %}
+		<h1>No hay registros de clientes</h1>
+		{% endif %}
+	</tbody>
+</table> 
+
+{% endblock%}

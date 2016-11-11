@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h2>DETALLE DE HABITACION</h2>
+<h3>N° de habitacion: {{ habitaciones.num_habitacion }}</h3>
+<h3>N° de Personas: {{ habitaciones.personas }}</h3>
+<h3>Estado: {{ habitaciones.estado }}</h3>
+<h3>Tipo de habitacion: {{ habitaciones.get_clasificacion_display }}</h3>
+
+<input type="button" value="Volver atrás" onclick="history.back()">
+{% endblock %}

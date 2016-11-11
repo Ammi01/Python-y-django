@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<table class="table" border=3pxs width="50%" >
+	<thead>
+		<tr bgcolor="cornflowerblue">
+			<td>Cliente</td>
+			<td>Personas</td>
+			<td>Entrada</td>
+			<td>Salida</td>
+			<td>Habitacion</td>
+			<td>Acciones</td>
+		</tr>
+		
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for Reserva in object_list %}
+		<tr>
+			<td>{{ Reserva.user }}</td>
+			<td>{{ Reserva.personas_por_habitacion }}</td>
+			<td>{{ Reserva.entrada }}</td>
+			<td>{{ Reserva.salida }}</td>
+			<td>{{ Reserva.habitacion }}</td>	
+			<td bgcolor="gainsboro">
+				<a class="btn btn-pri" href="{% url 'detalle-reserva' Reserva.id %}">Detalle</a>
+				<a class="btn btn-seg" href="{% url 'editar-reserva' Reserva.id %}">Editar</a>
+			</td>		
+		</tr>
+		{% endfor %}
+		
+		{% else %}
+		<h1>No hay registros de Reserva</h1>
+		{% endif %}
+	</tbody>
+</table> 
+
+{% endblock%}

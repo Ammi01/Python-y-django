@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<table class="table" border=3pxs width="45%" >
+	<thead>
+		<tr bgcolor="brown">
+			<td>Cliente</td>
+			<td>Precio</td>
+			<td>Tipo de pago</td>
+			<td>Acciones</td>
+		</tr>
+		
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for Pago in object_list %}
+		<tr>
+			<td>{{ Pago.referencia }}</td>
+			<td>{{ Pago.Precio }}</td>
+			<td>{{ Pago.get_tipo_pago_display }}</td>
+			<td bgcolor="gainsboro">
+				<a class="btn btn-pri" href="{% url 'detalle-pago' Pago.id %}">Detalle</a>
+				<a class="btn btn-seg" href="{% url 'editar-pago' Pago.id %}">Editar</a>
+			</td>		
+		</tr>
+		{% endfor %}
+		
+		{% else %}
+		<h1>No hay registros de Pagos</h1>
+		{% endif %}
+	</tbody>
+</table> 
+
+{% endblock%}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>DETALLE DE PAGO</h2>
+<h3>Cliente: {{ pago.referencia }}</h3>
+<h3>Precio: {{ pago.Precio }}</h3>
+<h3>Tipo de pago: {{ pago.get_tipo_pago_display }}</h3>
+
+<input type="button" value="Volver atrás" onclick="history.back()">
+{% endblock %}

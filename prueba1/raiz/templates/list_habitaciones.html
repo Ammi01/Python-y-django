@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<table class="table" border=2pxs width="40%" >
+	<thead>
+		<tr bgcolor="aquamarine">
+			<td>N° de Habitacion</td>
+			<td>Personas</td>
+			<td>Estado</td>
+			<td>Tipo de Habitacion</td>
+			<td>Acciones</td>
+		</tr>
+		
+	</thead>
+	<tbody>
+		{% if object_list %}
+		{% for Habitaciones in object_list %}
+		<tr>
+			<td>{{ Habitaciones.num_habitacion }}</td>
+			<td>{{ Habitaciones.personas }}</td>
+			<td>{{ Habitaciones.get_estado_display }}</td>
+			<td>{{ Habitaciones.get_clasificacion_display }}</td>	
+			<td bgcolor="gainsboro">
+				<a class="btn btn-pri" href="{% url 'detalle-habitacion' Habitaciones.id %}">Detalle</a>
+				<a class="btn btn-seg" href="{% url 'editar-habitacion' Habitaciones.id %}">Editar</a>
+			</td>		
+		</tr>
+		{% endfor %}
+		
+		{% else %}
+		<h1>No hay registros de Habitaciones</h1>
+		{% endif %}
+	</tbody>
+</table> 
+
+{% endblock%}
